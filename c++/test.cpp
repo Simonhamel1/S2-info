@@ -28,7 +28,7 @@ std::vector<std::vector<int>> creation_tab(int nmbre_chemin = 10, int nombre_de_
 }
 
 int main() {
-    auto chemin = creation_tab(100000, 1000, 0.5);
+    auto chemin = creation_tab(1000, 100000, 0.5);
     
     // Export to CSV for visualization
     std::ofstream file("chemin.csv");
