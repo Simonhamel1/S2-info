@@ -3,4 +3,4 @@
 *.log
 temp/
 program
-.csv
+*.csv
